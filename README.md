@@ -43,10 +43,10 @@ PCB is designed for [AK-S-80](datasheets/AK-S-80.pdf) case
 
 ## Ordering and manufacturing
 
- - Gerber files: [Gerber_PCB_yet another wled controller.zip](fabrication/Gerber_PCB_yet another wled controller.zip)
- - BOM file: [BOM_PCB_yet another wled controller.csv](fabrication/BOM_PCB_yet another wled controller.csv)
- - BOM file (JLCPCB): [BOM_PCB_yet another wled controller.csv (JLCPCB).xls](fabrication/BOM_PCB_yet another wled controller.csv (JLCPCB).xls)
- - CPL file: [PickAndPlace_PCB_yet another wled controller.csv](fabrication/PickAndPlace_PCB_yet another wled controller.csv)
+ - Gerber files: [Gerber_PCB_yet_another_wled_controller.zip](fabrication/Gerber_PCB_yet_another_wled_controller.zip)
+ - BOM file: [BOM_PCB_yet_another_wled_controller.csv](fabrication/BOM_PCB_yet_another_wled_controller.csv)
+ - BOM file (JLCPCB): [BOM_PCB_yet_another_wled_controller_(JLCPCB).xls](fabrication/BOM_PCB_yet_another_wled_controller_(JLCPCB).xls)
+ - CPL file: [PickAndPlace_PCB_yet_another_wled_controller.csv](fabrication/PickAndPlace_PCB_yet_another_wled_controller.csv)
 
 ## Hardware
 
