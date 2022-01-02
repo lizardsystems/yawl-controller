@@ -65,7 +65,8 @@ PCB is designed for [AK-S-80](datasheets/AK-S-80.pdf) case
 
 PCB manufactured by JLCPCB
 
-![PCB](images/pcb_preview.jpg)
+![image](https://user-images.githubusercontent.com/4923679/147882466-71f18676-8921-4882-8fba-cf14b765dff4.png)
+
 
 PCB and the case 
 
