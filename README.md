@@ -1,8 +1,21 @@
-# yawl-controller
-Yet another WLED controller
-![yawl-controller](images/yawl-controller_preview.jpg)
+# Yet Another WLED Controller
+Yet another WLED controller (yawl-controller)
+
+
+![image](https://user-images.githubusercontent.com/4923679/147882309-b06ed857-24f9-45e3-b529-64e0d5ec5784.png) ![image](https://user-images.githubusercontent.com/4923679/147882301-a6e64110-af4b-401c-9a9a-7bf92ce4454f.png)
+
 
 This is the ESP8266 based wireless pixel controller to drive adressable LED stripes like Neopixel/SK6812/WS2801/etc using WLED.
+
+## Features
+ - Compact: 60x35x19mm with case, 59x32x12mm  without case;
+ - Reverse polarity protection;
+ - Fuse protection;
+ - New [SN74LVC2T45DCUR](https://www.ti.com/product/SN74LVC2T45) bus transceiver with voltage translation;
+ - IR receiver (optional);
+ - Button (optional);
+ - Dallas temperature sensor for measuring ambient temperature inside of enclosure (optional);
+ - Relay for reducing power consumption when seemingly switched off (optional)
 
 This repository contains a schematic and PCB layout for a yawl-controller.
 
@@ -74,6 +87,7 @@ You may use ready bin file .
 
 ![Installing](images/yawl-controller_with_strip_preview.jpg)
 
+Installing relay https://kno.wled.ge/features/relay-control/
 
 ## Resources
  - [WLED](https://github.com/Aircoookie/WLED) 
