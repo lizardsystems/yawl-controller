@@ -72,7 +72,9 @@ PCB and the case
 ## Ready to use firmware
 
 ### WLED
+
 You may use ready bin file .
+
 ![image](https://user-images.githubusercontent.com/4923679/147888067-b07d6928-13c3-497c-85a1-d10180090272.png)
 
 ### ESPHOME
