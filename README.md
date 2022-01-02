@@ -1,11 +1,9 @@
 # Yet Another WLED Controller
-Yet another WLED controller (yawl-controller)
-
-![image](https://user-images.githubusercontent.com/4923679/147882398-36ba8136-6c3f-4c54-94ed-6fc7eff5c155.png)
-
-
+This repository contains a schematic and PCB layout for a yet another WLED controller (yawl-controller).
 
 This is the ESP8266 based wireless pixel controller to drive adressable LED stripes like Neopixel/SK6812/WS2801/etc using WLED.
+
+![image](https://user-images.githubusercontent.com/4923679/147882398-36ba8136-6c3f-4c54-94ed-6fc7eff5c155.png)
 
 ## Features
  - Compact: 60x35x19mm with case, 59x32x12mm  without case;
@@ -17,7 +15,6 @@ This is the ESP8266 based wireless pixel controller to drive adressable LED stri
  - Dallas temperature sensor for measuring ambient temperature inside of enclosure (optional);
  - Relay for reducing power consumption when seemingly switched off (optional)
 
-This repository contains a schematic and PCB layout for a yawl-controller.
 
 ### Some credits before start
 
