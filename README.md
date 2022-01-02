@@ -66,6 +66,7 @@ PCB manufactured by JLCPCB
 
 ![image](https://user-images.githubusercontent.com/4923679/147888264-8d272bed-b5fc-4414-82fe-12aaf90119f2.png)
 
+![image](https://user-images.githubusercontent.com/4923679/147888345-70d8bd42-2948-4fa1-be34-e6b01872076f.png)
 
 PCB in case 
 
