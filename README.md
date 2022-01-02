@@ -39,7 +39,7 @@ Dimensions:
 
 PCB is designed for [AK-S-80](datasheets/AK-S-80.pdf) case
 
-![Case](images/case_preview.jpg)
+![Case](https://user-images.githubusercontent.com/4923679/147881432-e5d43037-fedc-42a0-b894-20ac5c828562.png)
 
 ## Ordering and manufacturing
 
