@@ -2,7 +2,7 @@
 Yet another WLED controller (yawl-controller)
 
 
-![image](https://user-images.githubusercontent.com/4923679/147882309-b06ed857-24f9-45e3-b529-64e0d5ec5784.png) ![image](https://user-images.githubusercontent.com/4923679/147882301-a6e64110-af4b-401c-9a9a-7bf92ce4454f.png)
+![image](https://user-images.githubusercontent.com/4923679/147882309-b06ed857-24f9-45e3-b529-64e0d5ec5784.png)![image](https://user-images.githubusercontent.com/4923679/147882301-a6e64110-af4b-401c-9a9a-7bf92ce4454f.png)
 
 
 This is the ESP8266 based wireless pixel controller to drive adressable LED stripes like Neopixel/SK6812/WS2801/etc using WLED.
