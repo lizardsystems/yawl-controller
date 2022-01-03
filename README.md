@@ -6,14 +6,14 @@ This is the ESP8266 based wireless pixel controller to drive adressable LED stri
 ![image](https://user-images.githubusercontent.com/4923679/147882398-36ba8136-6c3f-4c54-94ed-6fc7eff5c155.png)
 
 ## Features
- - Compact: 60x35x19mm with case, 59x32x12mm  without case;
- - Reverse polarity protection;
- - Fuse protection;
- - Modern [SN74LVC2T45](https://www.ti.com/product/SN74LVC2T45) bus transceiver with voltage translation. [Why?](level-shifter.md);
- - IR receiver (optional);
- - Button (optional);
- - Dallas temperature sensor for measuring ambient temperature inside of enclosure (optional);
- - Relay for reducing power consumption when seemingly switched off (optional)
+ - Compact: 60x35x19mm with case, 59x32x12mm  without case.
+ - Reverse polarity protection.
+ - Fuse protection.
+ - Modern [SN74LVC2T45](https://www.ti.com/product/SN74LVC2T45) bus transceiver with voltage translation. [Why?](level-shifter.md).
+ - IR receiver (optional).
+ - Button (optional).
+ - Dallas temperature sensor for measuring ambient temperature inside of enclosure (optional).
+ - Relay for reducing power consumption when seemingly switched off (optional).
 
 
 ### Some credits before start
