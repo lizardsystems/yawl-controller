@@ -64,16 +64,18 @@ PCB manufactured by JLCPCB
 
 ![image](https://user-images.githubusercontent.com/4923679/147882466-71f18676-8921-4882-8fba-cf14b765dff4.png)
 
+SMT assembled PCB
+
 ![image](https://user-images.githubusercontent.com/4923679/147888264-8d272bed-b5fc-4414-82fe-12aaf90119f2.png)
+
+Fully assembled device
 
 ![image](https://user-images.githubusercontent.com/4923679/147888345-70d8bd42-2948-4fa1-be34-e6b01872076f.png)
 
-PCB in case 
+In case 
 
 ![image](https://user-images.githubusercontent.com/4923679/147888206-4ec5e677-57a0-48d1-ba51-11ed87e28f82.png)
 
-
-![pcb and case](images/pcb_and_case_preview.jpg) ![pcb_in_case](images/pcb_in_case_preview.jpg)
 
 ## Ready to use firmware
 
