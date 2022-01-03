@@ -9,7 +9,7 @@ This is the ESP8266 based wireless pixel controller to drive adressable LED stri
  - Compact: 60x35x19mm with case, 59x32x12mm  without case;
  - Reverse polarity protection;
  - Fuse protection;
- - Modern [SN74LVC2T45DCUR](https://www.ti.com/product/SN74LVC2T45) bus transceiver with voltage translation. [Why?](level-shifter.md);
+ - Modern [SN74LVC2T45](https://www.ti.com/product/SN74LVC2T45) bus transceiver with voltage translation. [Why?](level-shifter.md);
  - IR receiver (optional);
  - Button (optional);
  - Dallas temperature sensor for measuring ambient temperature inside of enclosure (optional);
