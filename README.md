@@ -10,6 +10,7 @@ This is the ESP8266 based wireless pixel controller to drive adressable LED stri
  - Reverse polarity protection.
  - Fuse protection.
  - Modern [SN74LVC2T45](https://www.ti.com/product/SN74LVC2T45) bus transceiver with voltage translation. [Why?](level-shifter.md)
+ - Capacitor 1000 µF at 6.3V, smooths the voltage and sudden changes in demand for current from the LEDs.
  - IR receiver (optional).
  - Button (optional).
  - Dallas temperature sensor for measuring ambient temperature inside of enclosure (optional).
