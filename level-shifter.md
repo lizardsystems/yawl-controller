@@ -1,5 +1,8 @@
 # Level shifter
 
+SN74LVC2T45 - 2-Bit Dual Supply Transceiver with Configurable Voltage-Level Shifting and 3-State Outputs. [Datasheet](datasheets/1809042112_Texas-Instruments-SN74LVC2T45DCUR_C15741.pdf)
+
+
 ## Speed
 
 SN74LVC2T45 2x faster than SN74AHCT125N and 4x faster than SN74HCT125N
