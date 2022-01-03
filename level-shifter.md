@@ -1,6 +1,7 @@
 # Level shifter
 
-SN74LVC2T45 - 2-Bit Dual Supply Transceiver with Configurable Voltage-Level Shifting and 3-State Outputs. [Datasheet](datasheets/1809042112_Texas-Instruments-SN74LVC2T45DCUR_C15741.pdf)
+SN74LVC2T45 - 2-Bit Dual Supply Transceiver with Configurable Voltage-Level Shifting and 3-State Outputs. 
+[SN74LVC2T45 Datasheet](datasheets/1809042112_Texas-Instruments-SN74LVC2T45DCUR_C15741.pdf)
 
 
 ## Speed
