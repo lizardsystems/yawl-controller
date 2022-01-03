@@ -13,7 +13,7 @@ This is the ESP8266 based wireless pixel controller to drive adressable LED stri
  - IR receiver (optional).
  - Button (optional).
  - Dallas temperature sensor for measuring ambient temperature inside of enclosure (optional).
- - Relay for reducing power consumption when seemingly switched off (optional).
+ - Connection to relay for reducing power consumption when seemingly switched off (optional).
 
 
 ### Some credits before start
