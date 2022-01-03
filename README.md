@@ -76,6 +76,8 @@ In case
 
 ![image](https://user-images.githubusercontent.com/4923679/147888206-4ec5e677-57a0-48d1-ba51-11ed87e28f82.png)
 
+![image](https://user-images.githubusercontent.com/4923679/147910294-025f5615-0d9f-4f5f-8741-5f771bf4f7ec.png)
+
 
 ## Ready to use firmware
 
