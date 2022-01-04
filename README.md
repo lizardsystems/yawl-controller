@@ -102,15 +102,17 @@ You may use ready bin file .
 
 Installing relay https://kno.wled.ge/features/relay-control/
 
-## Links
- - Case [80x38x22mm-Black](https://aliexpress.ru/item/1005002656761229.html) or [style 2](https://aliexpress.ru/item/1005001677364663.html)
- - Fuse holder [Micro](https://aliexpress.ru/item/4000541087990.html), Fuse 10A [Micro](https://aliexpress.ru/item/4000568246661.html) 
- - ESP8266: [ESP-12F](https://aliexpress.ru/item/4000587226532.html) or [ESP-07S](https://aliexpress.ru/item/4000587226532.html)
- - IR Receiver [TSOP38238](https://aliexpress.ru/item/32834341300.html)
- - Temperature sensor [DS18B20](https://aliexpress.ru/item/32523899337.html)
- - 3x Screw terminal 5mm [2P](https://aliexpress.ru/item/4000084631795.html)
- - Relay screw terminal 2.54mm [2P](https://aliexpress.ru/item/4000867583795.html)
- - Push button [6x6x9mm](https://aliexpress.ru/item/32912104842.html)
+## Manual soldering and assmbling
+
+![image](https://user-images.githubusercontent.com/4923679/148034722-3f49e2bb-67cc-4ed4-801f-2bac053a24ee.png)
+
+- Fuse holder [Micro](https://aliexpress.ru/item/4000541087990.html), Fuse 10A [Micro](https://aliexpress.ru/item/4000568246661.html) 
+ - IR Receiver (optional) [TSOP38238](https://aliexpress.ru/item/32834341300.html)
+ - Temperature sensor (optional) [DS18B20](https://aliexpress.ru/item/32523899337.html)
+ - 3x Screw terminal 5mm (optional) [2P](https://aliexpress.ru/item/4000084631795.html)
+ - Relay screw terminal 2.54mm (optional) [2P](https://aliexpress.ru/item/4000867583795.html)
+ - Push button (optional) [6x6x9mm](https://aliexpress.ru/item/32912104842.html)
+ - Case (optional) [80x38x22mm-Black](https://aliexpress.ru/item/1005002656761229.html) or [style 2](https://aliexpress.ru/item/1005001677364663.html)
 
 ## Resources
  - [WLED](https://github.com/Aircoookie/WLED) 
