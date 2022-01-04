@@ -102,7 +102,7 @@ You may use ready bin file .
 
 Installing relay https://kno.wled.ge/features/relay-control/
 
-## Manual soldering and assmbling
+## Manual soldering and assembling
 
 ![image](https://user-images.githubusercontent.com/4923679/148034722-3f49e2bb-67cc-4ed4-801f-2bac053a24ee.png)
 
