@@ -1,4 +1,4 @@
-# WLED
+# WLED Firmware
 
 You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
 
