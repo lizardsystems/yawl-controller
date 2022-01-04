@@ -75,7 +75,8 @@ Fully assembled device
 
 In case 
 
-![image](https://user-images.githubusercontent.com/4923679/147888206-4ec5e677-57a0-48d1-ba51-11ed87e28f82.png)
+![image](https://user-images.githubusercontent.com/4923679/148032996-d19bc7c6-6186-4781-a3dc-3bb93251a463.png)
+
 
 ![image](https://user-images.githubusercontent.com/4923679/147910294-025f5615-0d9f-4f5f-8741-5f771bf4f7ec.png)
 
