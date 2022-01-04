@@ -19,7 +19,7 @@ SN74LVC2T45 8x smaller than SN74AHCT125N
 - SN74AHCT125N (PDIP-14) 19.05x6.35x3.3mm 
 - SN74LVC2T45DCUR  (VSSOP-8) - 2x2.3x1mm
 
-![image](https://user-images.githubusercontent.com/4923679/148031307-b78b40db-3f75-4035-9ef3-9733d9efcefa.png)|
+![image](https://user-images.githubusercontent.com/4923679/148032116-0037b39a-e273-40b1-9834-9a77194f13a5.png)
 
 ## Price
 
