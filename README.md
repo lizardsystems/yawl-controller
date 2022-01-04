@@ -9,7 +9,7 @@ This is the ESP8266 based wireless pixel controller to drive adressable LED stri
  - Compact: 60x35x19mm with case, 59x32x12mm  without case.
  - Fuse for overcurrent protection.
  - Reverse polarity protection.
-  - Modern [SN74LVC2T45](https://www.ti.com/product/SN74LVC2T45) bus transceiver with voltage translation. [Why?](level-shifter.md)
+ - Modern [SN74LVC2T45](https://www.ti.com/product/SN74LVC2T45) bus transceiver with voltage translation. [Why?](level-shifter.md)
  - Capacitor 1000 µF at 6.3V, smooths the voltage and sudden changes in demand for current from the LEDs.
  - IR receiver (optional).
  - Button (optional).
@@ -81,13 +81,8 @@ In case
 ![image](https://user-images.githubusercontent.com/4923679/147910294-025f5615-0d9f-4f5f-8741-5f771bf4f7ec.png)
 
 
-## Ready to use firmware
+## Firmware
 
-### WLED
-
-You may use ready bin file .
-
-![image](https://user-images.githubusercontent.com/4923679/147888067-b07d6928-13c3-497c-85a1-d10180090272.png)
 
 ### ESPHOME
 
