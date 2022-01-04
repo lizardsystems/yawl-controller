@@ -1,6 +1,7 @@
 # Level shifter
 
-SN74LVC2T45 - 2-Bit Dual Supply Transceiver with Configurable Voltage-Level Shifting and 3-State Outputs. 
+yawl-controller uses SN74LVC2T45 as level shifter - 2-Bit Dual Supply Transceiver with Configurable Voltage-Level Shifting and 3-State Outputs. 
+
 [SN74LVC2T45 Datasheet](datasheets/1809042112_Texas-Instruments-SN74LVC2T45DCUR_C15741.pdf)
 
 
@@ -16,6 +17,8 @@ SN74LVC2T45 8x smaller than SN74AHCT125N
 
  - SN74AHCT125N (PDIP-14) 19.05x6.35x3.3mm 
  - SN74LVC2T45DCUR  (VSSOP-8) - 2x2.3x1mm
+
+![image](https://user-images.githubusercontent.com/4923679/148031307-b78b40db-3f75-4035-9ef3-9733d9efcefa.png)
 
 ## Price
 
