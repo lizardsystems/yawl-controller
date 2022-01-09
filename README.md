@@ -93,7 +93,7 @@ PCB is designed for [AK-S-80](datasheets/AK-S-80.pdf) case
 
 ![image](https://user-images.githubusercontent.com/4923679/148032996-d19bc7c6-6186-4781-a3dc-3bb93251a463.png)
 
-![image](https://user-images.githubusercontent.com/4923679/148697522-e535a989-df1e-45db-8822-1848f8c4e2c7.png)
+![image](https://user-images.githubusercontent.com/4923679/148697547-6ecd030d-4e01-4a6e-99d4-b3630c6631d2.png)
 
 ![image](https://user-images.githubusercontent.com/4923679/147910294-025f5615-0d9f-4f5f-8741-5f771bf4f7ec.png)
 
