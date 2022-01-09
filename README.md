@@ -84,13 +84,15 @@ In case
 ![image](https://user-images.githubusercontent.com/4923679/148694897-022245fe-2545-4476-af9c-1e1aab210671.png)
 
 
-- Fuse holder [Micro](https://aliexpress.ru/item/4000541087990.html), Fuse 10A [Micro](https://aliexpress.ru/item/4000568246661.html) 
- - IR Receiver (optional) [TSOP38238](https://aliexpress.ru/item/32834341300.html)
- - Temperature sensor (optional) [DS18B20](https://aliexpress.ru/item/32523899337.html)
- - 3x Screw terminal 5mm (optional) [2P](https://aliexpress.ru/item/4000084631795.html)
- - Relay screw terminal 2.54mm (optional) [2P](https://aliexpress.ru/item/4000867583795.html)
- - Push button (optional) [6x6x9mm](https://aliexpress.ru/item/32912104842.html)
- - Case (optional) [80x38x22mm-Black](https://aliexpress.ru/item/1005002656761229.html) or [style 2](https://aliexpress.ru/item/1005001677364663.html)
+- Fuse Holder [Micro](https://aliexpress.ru/item/4000541087990.html), Fuse 10A [Micro](https://aliexpress.ru/item/4000568246661.html) 
+- IR Receiver (optional) [TSOP38238](https://aliexpress.ru/item/32834341300.html)
+- Temperature Sensor (optional) [DS18B20](https://aliexpress.ru/item/32523899337.html)
+- 3x Screw Terminal 5mm (optional) [2P](https://aliexpress.ru/item/4000084631795.html)
+- Relay Screw Terminal 2.54mm (optional) [2P](https://aliexpress.ru/item/4000867583795.html)
+- Push Button (optional) [6x6x9mm](https://aliexpress.ru/item/32912104842.html)
+- DC Power Pigtail Female Plug [5.5x2.1mm](https://www.aliexpress.com/af/pigtail-dc-female-5.5x2.1mm.html)
+- JST SM Connector [3pin](https://www.aliexpress.com/item/1718558728.html)
+- Case (optional) [80x38x22mm-Black](https://aliexpress.ru/item/1005002656761229.html) or [style 2](https://aliexpress.ru/item/1005001677364663.html)
 
 ## Firmware
 
