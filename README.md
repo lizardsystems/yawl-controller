@@ -3,7 +3,7 @@ This repository contains a schematic and PCB layout for a yet another WLED contr
 
 This is the ESP8266 based wireless pixel controller to drive adressable LED stripes like Neopixel/SK6812/WS2801/etc using WLED.
 
-![image](https://user-images.githubusercontent.com/4923679/147882398-36ba8136-6c3f-4c54-94ed-6fc7eff5c155.png)
+![image](https://user-images.githubusercontent.com/4923679/148697854-d7ea49c9-5123-4108-89c8-f2a3430f79d7.png)
 
 ## Features
  - Compact: 60x35x19mm with case, 59x32x12mm  without case.
@@ -91,7 +91,7 @@ PCB is designed for [AK-S-80](datasheets/AK-S-80.pdf) case
 
 With all optional parts
 
-![image](https://user-images.githubusercontent.com/4923679/147888345-70d8bd42-2948-4fa1-be34-e6b01872076f.png)
+![image](https://user-images.githubusercontent.com/4923679/148697854-d7ea49c9-5123-4108-89c8-f2a3430f79d7.png)
 
 ### In case 
 
