@@ -87,6 +87,10 @@ PCB is designed for [AK-S-80](datasheets/AK-S-80.pdf) case
 
 ### Assembled device
 
+![image](https://user-images.githubusercontent.com/4923679/148697657-2daef0c1-f44f-4adf-8553-6ab3f9439131.png)
+
+With all optional parts
+
 ![image](https://user-images.githubusercontent.com/4923679/147888345-70d8bd42-2948-4fa1-be34-e6b01872076f.png)
 
 ### In case 
