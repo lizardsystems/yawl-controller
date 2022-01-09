@@ -61,25 +61,15 @@ PCB is designed for [AK-S-80](datasheets/AK-S-80.pdf) case
 
 ## Hardware
 
-PCB manufactured by JLCPCB
+### PCB manufactured by JLCPCB
 
 ![image](https://user-images.githubusercontent.com/4923679/147882466-71f18676-8921-4882-8fba-cf14b765dff4.png)
 
-SMT assembled PCB
+### SMT assembled PCB
 
-![image](https://user-images.githubusercontent.com/4923679/147888264-8d272bed-b5fc-4414-82fe-12aaf90119f2.png)
+![image](https://user-images.githubusercontent.com/4923679/148696689-2e340bda-a2ca-41d7-a06a-2582eccb4c63.png)
 
-Fully assembled device
-
-![image](https://user-images.githubusercontent.com/4923679/147888345-70d8bd42-2948-4fa1-be34-e6b01872076f.png)
-
-In case 
-
-![image](https://user-images.githubusercontent.com/4923679/148032996-d19bc7c6-6186-4781-a3dc-3bb93251a463.png)
-
-![image](https://user-images.githubusercontent.com/4923679/147910294-025f5615-0d9f-4f5f-8741-5f771bf4f7ec.png)
-
-## Manual soldering and assembling
+### Manual soldering and assembling
 
 ![image](https://user-images.githubusercontent.com/4923679/148694897-022245fe-2545-4476-af9c-1e1aab210671.png)
 
@@ -93,6 +83,19 @@ In case
 - DC Power Pigtail Female Plug [5.5x2.1mm](https://www.aliexpress.com/af/pigtail-dc-female-5.5x2.1mm.html)
 - JST SM Connector [3pin](https://www.aliexpress.com/item/1718558728.html)
 - Case (optional) [80x38x22mm-Black](https://aliexpress.ru/item/1005002656761229.html) or [style 2](https://aliexpress.ru/item/1005001677364663.html)
+
+
+### Assembled device
+
+![image](https://user-images.githubusercontent.com/4923679/147888345-70d8bd42-2948-4fa1-be34-e6b01872076f.png)
+
+### In case 
+
+![image](https://user-images.githubusercontent.com/4923679/148032996-d19bc7c6-6186-4781-a3dc-3bb93251a463.png)
+
+![image](https://user-images.githubusercontent.com/4923679/148697522-e535a989-df1e-45db-8822-1848f8c4e2c7.png)
+
+![image](https://user-images.githubusercontent.com/4923679/147910294-025f5615-0d9f-4f5f-8741-5f771bf4f7ec.png)
 
 ## Firmware
 
