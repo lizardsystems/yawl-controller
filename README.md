@@ -81,7 +81,8 @@ In case
 
 ## Manual soldering and assembling
 
-![image](https://user-images.githubusercontent.com/4923679/148034722-3f49e2bb-67cc-4ed4-801f-2bac053a24ee.png)
+![image](https://user-images.githubusercontent.com/4923679/148694897-022245fe-2545-4476-af9c-1e1aab210671.png)
+
 
 - Fuse holder [Micro](https://aliexpress.ru/item/4000541087990.html), Fuse 10A [Micro](https://aliexpress.ru/item/4000568246661.html) 
  - IR Receiver (optional) [TSOP38238](https://aliexpress.ru/item/32834341300.html)
