@@ -3,9 +3,10 @@ This repository contains a schematic and PCB layout for a yet another WLED contr
 
 This is the ESP8266 based wireless pixel controller to drive adressable LED stripes like Neopixel/SK6812/WS2801/etc using WLED.
 
-![image](https://user-images.githubusercontent.com/4923679/148697854-d7ea49c9-5123-4108-89c8-f2a3430f79d7.png)
+![image](https://user-images.githubusercontent.com/4923679/148744534-96b7fe6e-2540-4cbb-8c9c-11a14e8da290.png)
 
 ## Features
+![image](https://user-images.githubusercontent.com/4923679/148697854-d7ea49c9-5123-4108-89c8-f2a3430f79d7.png)
  - Compact: 60x35x19mm with case, 59x32x12mm  without case.
  - Fuse for overcurrent protection.
  - Reverse polarity protection.
