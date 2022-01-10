@@ -36,6 +36,15 @@ This is the schematic of YAWL controller
 
 Download pdf file [Schematic_yet_another_wled_controller.pdf](Schematic_yet_another_wled_controller..pdf)
 
+## Used GPIOs
+- RLYPIN 12 
+- BTNPIN 0
+- IRPIN 4
+- TEMPERATURE_PIN 14
+- CLKPIN 1
+- DATAPIN 2
+
+
 ## PCB 
 Dimensions: 
  - Width x Height: 59x32mm
