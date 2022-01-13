@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/4923679/149401736-535d2bba-8466-41f9-aaf0-5478546e5604.png)
+![image](https://user-images.githubusercontent.com/4923679/149402599-a11e997f-fe2b-40f1-a34d-8f146841bb02.png)
+
 
 
 You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
