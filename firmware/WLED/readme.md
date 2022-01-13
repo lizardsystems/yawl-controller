@@ -2,10 +2,12 @@
 
 # WLED
 
+## Firmware
 You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
 
-Also you may compile the firmware by self. Please read instruction at https://kno.wled.ge/basics/compiling-wled/
+Also you may compile the firmware by self using Visual Studio Code and Platformio. Please read a step-by-step guide at [this page](https://kno.wled.ge/basics/compiling-wled/) of the WLED Wiki
 
+## Flashing
 
 ## Configuring
 
@@ -15,8 +17,8 @@ Also you may compile the firmware by self. Please read instruction at https://kn
 
 ### IR receiver
 ### Relay
-
 Installing relay https://kno.wled.ge/features/relay-control/
+
 ### Button
 ![image](https://user-images.githubusercontent.com/4923679/148069147-21314ace-1a82-47b7-acb2-ea9d739f3b82.png)
 
