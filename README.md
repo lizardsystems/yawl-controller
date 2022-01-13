@@ -111,7 +111,7 @@ With all optional parts
 
 ![image](https://user-images.githubusercontent.com/4923679/148698189-70a029c0-2643-460d-97d1-b1e7b7aec49e.png)
 
-## Redy-to-use firmware for YAWL Controller
+## Ready to use firmware
 
 - [WLED Firmware](firmware/WLED/)
 - [ESPHOME firmware](firmware/ESPHome)
