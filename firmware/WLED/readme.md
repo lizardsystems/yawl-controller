@@ -1,5 +1,8 @@
 # WLED Firmware
 
+![image](https://user-images.githubusercontent.com/4923679/149401736-535d2bba-8466-41f9-aaf0-5478546e5604.png)
+
+
 You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
 
 Also you may compile the firmware by self. Please read instruction at https://kno.wled.ge/basics/compiling-wled/
