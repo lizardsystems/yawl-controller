@@ -36,15 +36,17 @@ This is the schematic of YAWL controller
 
 Download pdf file [Schematic_yet_another_wled_controller.pdf](Schematic_yet_another_wled_controller..pdf)
 
-## Used GPIOs
-|  | GPIO |
+## GPIO Pinout
+| Pin | Function | 
 | --- | ---|
-| Relay | 12 |
-| Button | 0 |
-| IR Receiver | 4 |
-| Temperature Sensor | 14 |
-| LED DATA | 2 |
-| LED CLK | 1 |
+| GPIO0 | Push Button | 
+|  GPIO1 | LED CLK |
+|  GPIO2 | LED DATA |
+|  GPIO4 | IR Receiver |
+| GPIO12 | Relay | 
+| GPIO14 | Temperature Sensor |
+
+
 
 
 ## PCB 
