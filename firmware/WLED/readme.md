@@ -1,5 +1,3 @@
-# WLED Firmware
-
 ![image](https://user-images.githubusercontent.com/4923679/149401736-535d2bba-8466-41f9-aaf0-5478546e5604.png)
 
 
