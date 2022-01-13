@@ -1,5 +1,6 @@
 ![wled_logo_akemi](https://user-images.githubusercontent.com/4923679/149402904-e135a6fa-ae00-4d32-b50a-784e71b2ab5c.jpg)
 
+# WLED
 
 You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
 
