@@ -2,14 +2,20 @@
 
 # WLED
 
-## Firmware
+## Download firmware
+### Custom firmware
 You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
 
 Also you may compile the firmware by self using Visual Studio Code and Platformio. Please read a step-by-step guide at [this page](https://kno.wled.ge/basics/compiling-wled/) of the WLED Wiki
 
-## Flashing
+### Standard firmware
 
-## Configuring
+You can get further information on the various WLED firmware versions https://github.com/Aircoookie/WLED/wiki/Install-WLED-binary#what-binary-should-i-use
+
+
+## Flash firmware
+
+## Configure WLED
 
 ### Temperature
 ![image](https://user-images.githubusercontent.com/4923679/147888067-b07d6928-13c3-497c-85a1-d10180090272.png)
@@ -22,9 +28,4 @@ Installing relay https://kno.wled.ge/features/relay-control/
 ### Button
 ![image](https://user-images.githubusercontent.com/4923679/148069147-21314ace-1a82-47b7-acb2-ea9d739f3b82.png)
 
-![Installing](images/yawl-controller_with_strip_preview.jpg)
 
-
-
-You can get further information on the various WLED firmware versions:
-https://github.com/Aircoookie/WLED/wiki/Install-WLED-binary#what-binary-should-i-use
