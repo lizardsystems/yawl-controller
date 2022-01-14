@@ -113,8 +113,8 @@ With all optional parts
 
 ## Ready to use firmware
 
-- [WLED Firmware](firmware/WLED/)
-- [ESPHome firmware](firmware/ESPHome)
+- [Custom WLED Firmware](firmware/WLED/)
+- [Custom ESPHome Firmware](firmware/ESPHome)
 
 
 ## Resources
