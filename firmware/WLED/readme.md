@@ -26,3 +26,5 @@ Installing relay https://kno.wled.ge/features/relay-control/
 
 
 
+You can get further information on the various WLED firmware versions:
+https://github.com/Aircoookie/WLED/wiki/Install-WLED-binary#what-binary-should-i-use
