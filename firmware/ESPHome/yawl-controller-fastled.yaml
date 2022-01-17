@@ -127,13 +127,15 @@ remote_receiver:
   dump: all
 
 light:
-  - platform: neopixelbus
+  - platform: fastled_clockless
     id: light_1
-    type: GRB
-    variant: WS2812X
+    rgb_order: GRB
+    chipset: WS2812B
     pin: GPIO2
     num_leds: 60
     name: ${friendly_node_name} NeoPixel Light
+    default_transition_length: 
+      milliseconds: 100
     on_turn_on:
       - logger.log: "Light Turned On!"
       - switch.turn_on: relay_1

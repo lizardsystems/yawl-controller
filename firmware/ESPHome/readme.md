@@ -2,3 +2,13 @@
 
 # ESPHome
 
+## FastLED
+
+https://esphome.io/components/light/fastled.html
+https://github.com/FastLED/FastLED
+
+
+## NeopixelBus
+
+https://esphome.io/components/light/neopixelbus.html
+
