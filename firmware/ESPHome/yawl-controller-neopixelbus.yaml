@@ -30,6 +30,10 @@ logger:
 
 ota:
 
+dashboard_import:
+  package_import_url: github://lizardsystems/yawl-controller/firmware/ESPHome/yawl-controller-neopixelbus.yaml
+
+
 web_server:
   port: 80
 
