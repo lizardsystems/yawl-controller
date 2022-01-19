@@ -37,27 +37,26 @@ Download YAML configuration file [yawl-controller-neopixelbus.yaml](yawl-control
 
 Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_started_command_line.html) and [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
 
-## Connect device to computer
+## Connect controller to computer
 
-![variant 1](/images/flash-1.png)
 
 ## Flash firmware
 
 Download flasher https://github.com/esphome/esphome-flasher/releases
 Open the flasher tool.
- - Serial port: select COM port where the device is connected (there is probably only one option).
+ - Serial port: select COM port where the controller is connected (there is probably only one option).
  - Firmware: Browse to the location where you downloaded your compiled firmware and select your firmware.
 
 ![image](https://user-images.githubusercontent.com/4923679/150183719-f0c19bbd-f6de-4fff-8127-51d3ef30a4f7.png)
 
 - Click Flash ESP and wait.
 
-The device will be flashed now, you can follow the progress in the console window.
-When finished writing the firmware, switch off device.
+The controller will be flashed now, you can follow the progress in the console window.
+When finished writing the firmware, switch off controller.
 
-## Connect device to Wi-Fi network
+## Connect controller to Wi-Fi network
 
-When you are using ready-to-use firmware, at the first start, the dongle will create its own network "yawl-controller-XXXXXX". 
+When you are using ready-to-use firmware, at the first start, the controller will create its own network "yawl-controller-XXXXXX". 
 
 
 When you are connecting to the fallback network, the web interface should open automatically (see also login to network notifications). If it doesn't open, you may also navigate to http://192.168.4.1/ manually in your browser.
