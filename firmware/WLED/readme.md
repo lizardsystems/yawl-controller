@@ -22,9 +22,13 @@ Also you may compile the firmware by self using Visual Studio Code and Platformi
  - "Open folder" in Visual Studio Code
  - Build project with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> hotkey
  - Build standard WLED.
- -  
+ - If the file is created successfully then you can proceed to the next step, if not please read [this article](https://kno.wled.ge/basics/compiling-wled/) for more information.  
  - Copy [platformio_override.ini](platformio_override.ini) to WLED folder 
-    
+ - Build custom WLED firmware.
+ - Please find built firmwae in WLED/build_output/firmware folder
+
+![image](https://user-images.githubusercontent.com/4923679/150132210-8e55dea6-7241-4128-952f-d4d0f9c8a675.png)
+
 If you still have questions for more information please read a step-by-step guide at [this page](https://kno.wled.ge/basics/compiling-wled/) of the WLED Wiki    
 
 ## Flash firmware
