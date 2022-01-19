@@ -4,14 +4,30 @@
 
 ## FastLED firmware
 
-https://esphome.io/components/light/fastled.html
-https://github.com/FastLED/FastLED
+You may create your own firmaware or download ready to use firmware.
 
+### Download ready to use firmware
+
+Download firmware [yawl-controller-fastled.bin](yawl-controller-fastled.bin) from this repository.
+
+### Build the firmware itself
+
+Download YAML configuration [yawl-controller-fastled.yaml](yawl-controller-fastled.yaml) from this repository. 
+Compile 
+
+Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_started_command_line.html) and [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
+
+For more information:
+- FastLED Light Platform https://esphome.io/components/light/fastled.html
+- FastLED repository https://github.com/FastLED/FastLED
 
 ## NeopixelBus firmware
 
 https://esphome.io/components/light/neopixelbus.html
 
+## Connect device to computer
+
+![variant 1](/images/flash-1.png)
 
 ## Flash firmware
 
@@ -27,11 +43,10 @@ Open the flasher tool.
 The device will be flashed now, you can follow the progress in the console window.
 When finished writing the firmware, switch off device.
 
-## Connecting dongle to Wi-Fi network
+## Connect device to Wi-Fi network
 
-When you are using ready-to-use firmware, at the first start, the dongle will create its own network "Midea AC Fallback Hotspot". 
+When you are using ready-to-use firmware, at the first start, the dongle will create its own network "yawl-controller-XXXXXX". 
 
-Type password for Fallback Hotspot. Default: yawl_1234!@#$
 
 When you are connecting to the fallback network, the web interface should open automatically (see also login to network notifications). If it doesn't open, you may also navigate to http://192.168.4.1/ manually in your browser.
 
