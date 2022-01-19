@@ -2,9 +2,13 @@
 
 # ESPHome
 
-## FastLED firmware
+## FastLED
 
-You may create your own firmaware or download ready to use firmware.
+You may create your own firmaware using FastLED platform or download ready to use firmware.
+
+For more information about FastLED library:
+- ESPHome FastLED Light Platform https://esphome.io/components/light/fastled.html
+- FastLED repository https://github.com/FastLED/FastLED
 
 ### Download ready to use firmware
 
@@ -12,18 +16,26 @@ Download firmware [yawl-controller-fastled.bin](yawl-controller-fastled.bin) fro
 
 ### Build the firmware itself
 
-Download YAML configuration [yawl-controller-fastled.yaml](yawl-controller-fastled.yaml) from this repository. 
-Compile 
+Download YAML configuration file [yawl-controller-neopixelbus.yaml](yawl-controller-neopixelbus.yaml) from this repository and compile using ESPHome.
 
 Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_started_command_line.html) and [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
 
-For more information:
-- FastLED Light Platform https://esphome.io/components/light/fastled.html
-- FastLED repository https://github.com/FastLED/FastLED
+## NeopixelBus
+You may create your own firmaware using NeoPixelBus library or download ready to use firmware.
 
-## NeopixelBus firmware
+For more information about NeoPixelBus library:
+- ESPHome NeoPixelBus Light Platform https://esphome.io/components/light/neopixelbus.html
+- NeoPixelBus repository https://github.com/Makuna/NeoPixelBus
 
-https://esphome.io/components/light/neopixelbus.html
+### Download ready to use firmware
+
+Download firmware [yawl-controller-neopixelbus.bin](yawl-controller-neopixelbus.bin) from this repository.
+
+### Build the firmware itself
+
+Download YAML configuration file [yawl-controller-neopixelbus.yaml](yawl-controller-neopixelbus.yaml) from this repository and compile using ESPHome.
+
+Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_started_command_line.html) and [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
 
 ## Connect device to computer
 
