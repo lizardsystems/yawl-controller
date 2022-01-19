@@ -2,16 +2,30 @@
 
 # WLED
 
-## Download firmware
-### Custom firmware
-You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
+## Download ready-to-use firmware
 
-Also you may compile the firmware by self using Visual Studio Code and Platformio. Please read a step-by-step guide at [this page](https://kno.wled.ge/basics/compiling-wled/) of the WLED Wiki
+### YAWL firmware
+You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
 
 ### Standard firmware
 
 You can get further information on the various WLED firmware versions https://github.com/Aircoookie/WLED/wiki/Install-WLED-binary#what-binary-should-i-use
 
+## Build custom firmware
+
+Also you may compile the firmware by self using Visual Studio Code and Platformio. 
+ - Download and install Git client: https://git-scm.com/downloads.
+ - Download and install Visual Studio Code: https://code.visualstudio.com/download.
+ - Install PlatformIO extension in Visual Studio Code: https://docs.platformio.org/en/latest//integration/ide/vscode.html#installation
+ - Download WLED Github Master ZIP: https://github.com/Aircoookie/WLED/archive/refs/heads/master.zip
+ - Unpack in directory somewhere
+ - "Open folder" in Visual Studio Code
+ - Build project with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd> hotkey
+ - Build standard WLED.
+ -  
+ - Copy [platformio_override.ini](platformio_override.ini) to WLED folder 
+    
+If you still have questions for more information please read a step-by-step guide at [this page](https://kno.wled.ge/basics/compiling-wled/) of the WLED Wiki    
 
 ## Flash firmware
 
