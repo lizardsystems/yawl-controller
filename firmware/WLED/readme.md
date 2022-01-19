@@ -34,15 +34,15 @@ If you still have questions for more information please read a step-by-step guid
 ## Flash firmware
 Download flasher https://github.com/esphome/esphome-flasher/releases
 Open the flasher tool.
- - Serial port: select COM port where the device is connected (there is probably only one option).
+ - Serial port: select COM port where the controller is connected (there is probably only one option).
  - Firmware: Browse to the location where you downloaded your compiled firmware and select your firmware.
 
 ![image](https://user-images.githubusercontent.com/4923679/150178214-c61dcdcf-88b6-4364-8bb0-61961e2b77ff.png)
 
 - Click Flash ESP and wait.
 
-The device will be flashed now, you can follow the progress in the console window.
-When finished writing the firmware, switch off device.
+The controller will be flashed now, you can follow the progress in the console window.
+When finished writing the firmware, switch off controller.
 
 ## Configure WLED
 
