@@ -24,7 +24,7 @@ Thanks to [Christian Schwinne aka Aircoookie](https://github.com/Aircoookie) who
 
 Schematics are based on manufacturers datasheets but some component values come from [Adafruit Learning System](https://learn.adafruit.com/) so thanks to Adafruit for keeping their products open source.
 
-## Idea
+## The Idea
 
 Small and simple device for 5V addressable LED strips with minimum components and fully assembled by PCB manufacturing service in standard case.
 
