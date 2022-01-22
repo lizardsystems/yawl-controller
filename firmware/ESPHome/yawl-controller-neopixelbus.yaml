@@ -15,10 +15,6 @@ esphome:
 
 wifi:
   ap: {}
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
-  fast_connect: true
-  power_save_mode: none
 
 
 captive_portal:
@@ -117,6 +113,13 @@ button:
     name: ${friendly_node_name} Restart
     id: ${node_id}_restart
     icon: "mdi:restart"
+  - platform: shutdown
+    name: ${friendly_node_name} Shutdown
+    id: ${node_id}_shutdown
+  - platform: safe_mode
+    name: ${friendly_node_name} Restart (Safe Mode)"
+    id: ${node_id}_safe_mode
+  
 
 switch:
   - platform: gpio
