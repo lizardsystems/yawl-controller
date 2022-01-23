@@ -24,8 +24,8 @@ Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_sta
 ### Build the firmware from command line
 
  - Edit file **env.cmd** from yawl-controller/firmware/ESPHome/ directory. 
-   - Set `PYTHON_PATH` to Python installed on your system, 
-   - Set `ESPHOME_VENV` to path to virtual environment where ESPHome will be installed, 
+   - Set `PYTHON_PATH` to Python installed on your system.
+   - Set `ESPHOME_VENV` to path to virtual environment where ESPHome will be installed.
    - Set `ESPHOME_REPO` to url for ESPHome repository. Default: https://github.com/esphome/esphome
    - Set `ESPHOME_BRANCH` to branch name or tag in ESPHome repository. Default: release
  - Run **install_esphome.cmd**. The latest version of ESPHome will be installed.
