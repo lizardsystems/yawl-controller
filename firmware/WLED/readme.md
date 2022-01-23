@@ -31,6 +31,19 @@ Also you may compile the firmware by self using Visual Studio Code and Platformi
 
 If you still have questions for more information please read a step-by-step guide at [this page](https://kno.wled.ge/basics/compiling-wled/) of the WLED Wiki    
 
+## Build the firmware from command line
+
+ - Edit file **env.cmd** from yawl-controller/firmware/ESPHome/ directory. 
+   - Set `PYTHON_PATH` to Python installed on your system.
+   - Set `PLATFORMIO_VENV` to path to virtual environment where Platformio will be installed.
+   - Set `PLATFORMIO_REPO` to url for Platformio repository. Default: https://github.com/platformio/platformio-core
+   - Set `PLATFORMIO_BRANCH` to branch name or tag in Platformio repository. Default: master
+   - Set `WLED_REPO` to url for WLED repository. Default: https://github.com/Aircoookie/WLED
+   - Set `WLED_BRANCH` to branch name or tag in WLED repository. Default: master
+ - Run **install_platformio.cmd**. The latest version of Platformio will be installed.
+ - Run **compile.cmd**. The firmware will be compiled and copied to yawl-controller/firmware/WLED/ directory. File **yawl_controller_WLED_`{WLED_VERSION}`.bin** will be created, where `{WLED_VERSION}` - version of WLED.  
+
+
 ## Flash firmware
 Download flasher https://github.com/esphome/esphome-flasher/releases
 Open the flasher tool.
@@ -46,15 +59,15 @@ When finished writing the firmware, switch off controller.
 
 ## Configure WLED
 
-### Temperature
+### Hardware setup
 ![image](https://user-images.githubusercontent.com/4923679/147888067-b07d6928-13c3-497c-85a1-d10180090272.png)
+### Temperature
 ![image](https://user-images.githubusercontent.com/4923679/148069110-cbfe597f-3612-4c2d-83bb-04ac1af12bcc.png)
-
+![image](https://user-images.githubusercontent.com/4923679/148069147-21314ace-1a82-47b7-acb2-ea9d739f3b82.png)
 ### IR receiver
 ### Relay
 Installing relay https://kno.wled.ge/features/relay-control/
-
 ### Button
-![image](https://user-images.githubusercontent.com/4923679/148069147-21314ace-1a82-47b7-acb2-ea9d739f3b82.png)
+
 
 
