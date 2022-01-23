@@ -26,8 +26,8 @@ Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_sta
  - Edit file **env.cmd** from yawl-controller/firmware/ESPHome/ directory. 
    - Set `PYTHON_PATH` to Python installed on your system, 
    - Set `ESPHOME_VENV` to path to virtual environment where ESPHome will be installed, 
+   - Set `ESPHOME_REPO` to url for ESPHome repository. Default: https://github.com/esphome/esphome
    - Set `ESPHOME_BRANCH` to branch name or tag in ESPHome repository. Default: release
-   - Set `ESPHOME_REPO` to url for ESPHome repository. . Default: https://github.com/esphome/esphome
  - Run **install_esphome.cmd**. The latest version of ESPHome will be installed.
  - Run **compile_fastled.cmd** or **compile_neopixelbus.cmd**. The firmware will be compiled and copied to yawl-controller/firmware/ESPHome/ directory. yawl-controller-fastled.bin or yawl-controller-neopixelbus.bin will be updated.  
 
