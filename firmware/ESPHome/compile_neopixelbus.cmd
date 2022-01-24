@@ -1,1 +1,1 @@
-call build.cmd neopixelbus
+call compile.cmd neopixelbus
