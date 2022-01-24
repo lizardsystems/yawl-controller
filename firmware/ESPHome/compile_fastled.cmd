@@ -1,1 +1,1 @@
-call build.cmd fastled
+call compile.cmd fastled
