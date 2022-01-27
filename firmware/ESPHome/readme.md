@@ -33,6 +33,8 @@ Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_sta
 
 ## Connect controller to computer
 
+![image](https://user-images.githubusercontent.com/4923679/151417418-8bf91050-af94-4fa6-b147-516f8ba6dbe8.png)
+
 
 ## Flash firmware
 
