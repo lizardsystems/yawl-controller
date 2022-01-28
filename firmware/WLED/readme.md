@@ -43,6 +43,17 @@ If you still have questions for more information please read a step-by-step guid
  - Run **install_platformio.cmd**. The latest version of Platformio will be installed.
  - Run **compile.cmd**. The firmware will be compiled and copied to yawl-controller/firmware/WLED/ directory. File **yawl_controller_WLED_`{WLED_VERSION}`.bin** will be created, where `{WLED_VERSION}` - version of WLED.  
 
+## Connect controller to computer
+
+| YAWL Controller |	USB to Serial Adapter|
+|---|---|
+| 3.3v	| 3.3v |
+| Ground	| Ground |
+| IO0	| Ground |
+| TX	| RX |
+| RX	| TX |
+
+![image](https://user-images.githubusercontent.com/4923679/151598448-9379adaf-c874-475b-8140-79478fdc33ec.png)
 
 ## Flash firmware
 Download flasher https://github.com/esphome/esphome-flasher/releases
