@@ -23,37 +23,61 @@ Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_sta
 
 ### Build the firmware from command line
 
- - Edit file **env.cmd** from yawl-controller/firmware/ESPHome/ directory. 
+If you want to flash firmware from command line you may skip this section and go to "**Flash using command line**"
+
+ 1) Edit file **env.cmd** from yawl-controller/firmware/ESPHome/ directory. 
    - Set `PYTHON_PATH` to Python installed on your system.
    - Set `ESPHOME_VENV` to path to virtual environment where ESPHome will be installed.
    - Set `ESPHOME_REPO` to url for ESPHome repository. Default: https://github.com/esphome/esphome
    - Set `ESPHOME_BRANCH` to branch name or tag in ESPHome repository. Default: release
- - Run **install_esphome.cmd**. The latest version of ESPHome will be installed.
- - Run **compile_fastled.cmd** or **compile_neopixelbus.cmd**. The firmware will be compiled and copied to yawl-controller/firmware/ESPHome/ directory. yawl-controller-fastled.bin or yawl-controller-neopixelbus.bin will be updated.  
+ 2) Run **install_esphome.cmd**. The latest version of ESPHome will be installed.
+ 3) Run **compile_fastled.cmd** or **compile_neopixelbus.cmd**. The firmware will be compiled and copied to yawl-controller/firmware/ESPHome/ directory. yawl-controller-fastled.bin or yawl-controller-neopixelbus.bin will be updated.  
 
 ## Connect controller to computer
 
-![image](https://user-images.githubusercontent.com/4923679/151417418-8bf91050-af94-4fa6-b147-516f8ba6dbe8.png)
+| YAWL Controller |	USB to Serial Adapter|
+|---|---|
+| 3.3v	| 3.3v |
+| Ground	| Ground |
+| IO0	| Ground |
+| TX	| RX |
+| RX	| TX |
 
+![image](https://user-images.githubusercontent.com/4923679/151598448-9379adaf-c874-475b-8140-79478fdc33ec.png)
 
 ## Flash firmware
 
- - Download flasher https://github.com/esphome/esphome-flasher/releases
+### Flash using ESPHome Flasher
+
+- Download flasher https://github.com/esphome/esphome-flasher/releases
  - Open the flasher tool.
    - Serial port: select COM port where the controller is connected (there is probably only one option).
    - Firmware: Browse to the location where you downloaded your compiled firmware and select your firmware.
+   - Click Flash ESP and wait.
 
-   ![image](https://user-images.githubusercontent.com/4923679/150183719-f0c19bbd-f6de-4fff-8127-51d3ef30a4f7.png)
-
-  - Click Flash ESP and wait.
+![esphome_flash](https://user-images.githubusercontent.com/4923679/151590660-6e98db55-7a78-4dfe-8a78-77da908318fc.gif)
 
 The controller will be flashed now, you can follow the progress in the console window.
 When finished writing the firmware, switch off controller.
 
+### Flash using command line
+
+1) Edit file **env.cmd** from yawl-controller/firmware/ESPHome/ directory. 
+   - Set `PYTHON_PATH` to Python installed on your system.
+   - Set `ESPHOME_VENV` to path to virtual environment where ESPHome will be installed.
+   - Set `ESPHOME_REPO` to url for ESPHome repository. Default: https://github.com/esphome/esphome
+   - Set `ESPHOME_BRANCH` to branch name or tag in ESPHome repository. Default: release
+2) Run **install_esphome.cmd**. The latest version of ESPHome will be installed.
+
+Once done, you can then go ahead and run the following command **flash_fastled.cmd** or **flash_neopixelbus.cmd** which will instruct ESPHome to flash YAWL controller firmware. This will take a minute or two to complete, at which point you will then be asked how you want to upload. Select the option for serial and it should begin to upload.
+
+![yawl_flash](https://user-images.githubusercontent.com/4923679/151590128-faa4d04a-c57a-415d-8368-c978568b5062.gif)
+
+Assuming everything was successful, you can now disconnect everything from the USB adaptor.
+
 ## Connect controller to Wi-Fi network
 
 When you are using ready-to-use firmware, at the first start, the controller will create its own network "yawl-controller-XXXXXX". 
-
 
 When you are connecting to the fallback network, the web interface should open automatically (see also login to network notifications). If it doesn't open, you may also navigate to http://192.168.4.1/ manually in your browser.
 
