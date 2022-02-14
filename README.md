@@ -8,6 +8,7 @@ This is the ESP8266 based wireless pixel controller to drive adressable LED stri
 ## Features
 ![image](https://user-images.githubusercontent.com/4923679/150126578-9ea5feae-1f16-45e6-b413-2ab0f7c7e3dc.png)
  - Compact: 60x35x19mm with case, 59x32x12mm  without case.
+ - Supports 3-wire and 4-wire LED strips.
  - Fuse for overcurrent protection.
  - Reverse polarity protection.
  - Modern [SN74LVC2T45](https://www.ti.com/product/SN74LVC2T45) bus transceiver with voltage translation. [Why?](level-shifter.md)
