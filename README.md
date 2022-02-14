@@ -1,7 +1,7 @@
 # Yet Another WLED Controller
 This repository contains a schematic and PCB layout for a yet another WLED controller (yawl-controller).
 
-This is the ESP8266 based wireless pixel controller to drive adressable LED stripes like WS2812B/APA102/WS2801/etc using WLED.
+This is the ESP8266 based wireless pixel controller to drive adressable LED strips like WS2812B/APA102/WS2801/etc using WLED.
 
 ![image](https://user-images.githubusercontent.com/4923679/148744534-96b7fe6e-2540-4cbb-8c9c-11a14e8da290.png)
 
