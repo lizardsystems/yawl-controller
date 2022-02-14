@@ -13,13 +13,50 @@ For more information about FastLED library:
 
 ### Download ready to use firmware
 
-Download firmware [yawl-controller-fastled.bin](yawl-controller-fastled.bin) or  [yawl-controller-neopixelbus.bin](yawl-controller-neopixelbus.bin) from this repository.
+Download firmware [yawl-controller-fastled.bin](yawl-controller-fastled.bin) or  [yawl-controller-neopixelbus.bin](yawl-controller-neopixelbus.bin) from this repository for 3-wire LED strip (NeoPixels, one data wire). If you want to use 4-wire LED strip (DotStars, two wire, one data and one clock) please read below. 
 
 ### Build the firmware itself
 
-Download YAML configuration file [yawl-controller-neopixelbus.yaml](yawl-controller-neopixelbus.yaml) or [yawl-controller-neopixelbus.yaml](yawl-controller-neopixelbus.yaml) from this repository and compile using ESPHome.
+#### 3-Wire LED Strip
+
+NeoPixels, one data wire:
+- WS2811, WS2812, WS2812b, WS2813
+- APA106
+- SK6812
+- LC8812
+- TM1814,TM1914,TM1829
+
+Download YAML configuration file [yawl-controller-neopixelbus.yaml](yawl-controller-neopixelbus.yaml) or [yawl-controller-fastled.yaml](yawl-controller-fastled.yaml) from this repository and compile using ESPHome.
+
+#### 4-Wire LED Strip
+
+DotStars, two wire, one data and one clock
+- APA102
+- SK9822
+- LPD6803, LPD8806
+- WS2801
+- P9813
+
+##### FastLED
+
+Please change light options in yawl-controller-fastled.yaml
+
+```yml
+light:
+  - platform: fastled_spi
+    id: light_1
+    rgb_order: GRB
+    chipset: APA102
+    data_pin: GPIO2
+    clock_pin: GPIO1
+```
+#### NeoPixelBus
+
+**Unfortunately NeoPixelBus does not support GPIO2 and GPIO1 for 4-wire LED strip. On ESP8266 NeoPixelBus supports only GPIO13 for data_pin and only GPIO14 for clock_pin.** 
 
 Please read [Getting Started with ESPHome](https://esphome.io/guides/getting_started_command_line.html) and [Getting Started with ESPHome and Home Assistant](https://esphome.io/guides/getting_started_hassio.html)
+
+
 
 ### Build the firmware from command line
 
