@@ -76,13 +76,13 @@ When finished writing the firmware, switch off controller.
 1. Select 3-wire LED Strip like a WS281x
 2. Data GPIO: 2 
 
-#### 4-Wire LED Strip Hardware Setup
+### 4-Wire LED Strip Hardware Setup
 ![image](https://user-images.githubusercontent.com/4923679/153906778-40c47fa6-e71f-48ec-b544-236a7a92fa7b.png)
 
 1. Select 4-wire LED Strip like a APA102
 2. GPIOs: 
-  - Data GPIO: 2
-  - Clk GPIO: 1
+   - Data GPIO: 2
+   - Clk GPIO: 1
 
 ### Temperature
 ![image](https://user-images.githubusercontent.com/4923679/148069110-cbfe597f-3612-4c2d-83bb-04ac1af12bcc.png)
