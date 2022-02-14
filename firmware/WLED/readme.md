@@ -70,17 +70,29 @@ When finished writing the firmware, switch off controller.
 
 ## Configure WLED
 
-### Hardware setup
-![image](https://user-images.githubusercontent.com/4923679/147888067-b07d6928-13c3-497c-85a1-d10180090272.png)
+### 3-Wire LED Strip Hardware Setup
+![image](https://user-images.githubusercontent.com/4923679/153913842-a6593142-24aa-42bf-b5f6-6cd16dcb8917.png)
+
+1. Select 3-wire LED Strip like a WS281x
+2. Data GPIO: 2 
+
+#### 4-Wire LED Strip Hardware Setup
+![image](https://user-images.githubusercontent.com/4923679/153906778-40c47fa6-e71f-48ec-b544-236a7a92fa7b.png)
+
+1. Select 4-wire LED Strip like a APA102
+2. GPIOs: 
+  - Data GPIO: 2
+  - Clk GPIO: 1
+
 ### Temperature
 ![image](https://user-images.githubusercontent.com/4923679/148069110-cbfe597f-3612-4c2d-83bb-04ac1af12bcc.png)
 ![image](https://user-images.githubusercontent.com/4923679/148069147-21314ace-1a82-47b7-acb2-ea9d739f3b82.png)
 ### IR receiver
+![image](https://user-images.githubusercontent.com/4923679/147888067-b07d6928-13c3-497c-85a1-d10180090272.png)
 ### Relay
 Installing relay https://kno.wled.ge/features/relay-control/
 ### Button
 
-## 4-wire LED strip
 
 
 
