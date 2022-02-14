@@ -80,5 +80,7 @@ When finished writing the firmware, switch off controller.
 Installing relay https://kno.wled.ge/features/relay-control/
 ### Button
 
+## 4-wire LED strip
+
 
 
