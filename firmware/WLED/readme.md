@@ -68,15 +68,26 @@ Open the flasher tool.
 The controller will be flashed now, you can follow the progress in the console window.
 When finished writing the firmware, switch off controller.
 
-## Configure WLED
+## Hardware Setup
 
-### 3-Wire LED Strip Hardware Setup
+### GPIO Pinout
+| Pin | Function | 
+| --- | ---|
+| GPIO0 | Push Button | 
+|  GPIO1 | LED CLK |
+|  GPIO2 | LED DATA |
+|  GPIO4 | IR Receiver |
+| GPIO12 | Relay | 
+| GPIO14 | Temperature Sensor |
+
+
+### 3-Wire LED Strip 
 ![image](https://user-images.githubusercontent.com/4923679/153913842-a6593142-24aa-42bf-b5f6-6cd16dcb8917.png)
 
 1. Select 3-wire LED Strip like a WS281x
 2. Data GPIO: 2 
 
-### 4-Wire LED Strip Hardware Setup
+### 4-Wire LED Strip
 ![image](https://user-images.githubusercontent.com/4923679/153906778-40c47fa6-e71f-48ec-b544-236a7a92fa7b.png)
 
 1. Select 4-wire LED Strip like a APA102
@@ -86,12 +97,27 @@ When finished writing the firmware, switch off controller.
 
 ### Temperature
 ![image](https://user-images.githubusercontent.com/4923679/148069110-cbfe597f-3612-4c2d-83bb-04ac1af12bcc.png)
+
 ![image](https://user-images.githubusercontent.com/4923679/148069147-21314ace-1a82-47b7-acb2-ea9d739f3b82.png)
+
 ### IR receiver
-![image](https://user-images.githubusercontent.com/4923679/147888067-b07d6928-13c3-497c-85a1-d10180090272.png)
+![image](https://user-images.githubusercontent.com/4923679/153915303-2f04856f-2a47-42df-bd29-26eec64e2434.png)
+
+YAWL controller uses GPIO 4 for IR receiver. 
+
+Information about infrared receivers https://kno.wled.ge/interfaces/infrared/
+
 ### Relay
+![image](https://user-images.githubusercontent.com/4923679/153915486-dcda3746-a0f0-44ca-b5f8-ebd2ef675e6c.png)
+
+YAWL controller uses GPIO 4 for controlling relay. 
+
 Installing relay https://kno.wled.ge/features/relay-control/
+
 ### Button
+![image](https://user-images.githubusercontent.com/4923679/153915630-30d3ab58-f2f6-416a-92d7-ade93570c406.png)
+
+YAWL controller uses GPIO 0 for button. 
 
 
 
