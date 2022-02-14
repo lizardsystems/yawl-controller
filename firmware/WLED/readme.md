@@ -5,11 +5,13 @@
 ## Download ready-to-use firmware
 
 ### YAWL firmware
-You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
+You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin) for 3-wire LED stripes.
+
+For 4-wire LED stripes you should build 
 
 ### Standard firmware
 
-You can get further information on the various WLED firmware versions https://github.com/Aircoookie/WLED/wiki/Install-WLED-binary#what-binary-should-i-use
+You can get further information on the various WLED firmware versions https://kno.wled.ge/basics/install-binary/
 
 ## Build custom firmware
 
