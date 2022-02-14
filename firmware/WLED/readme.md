@@ -96,7 +96,8 @@ When finished writing the firmware, switch off controller.
    - Clk GPIO: 1
 
 ### Temperature
-![image](https://user-images.githubusercontent.com/4923679/148069110-cbfe597f-3612-4c2d-83bb-04ac1af12bcc.png)
+![image](https://user-images.githubusercontent.com/4923679/153916175-8572cc5b-27c6-4c6d-8495-6753ef247217.png)
+
 
 ![image](https://user-images.githubusercontent.com/4923679/148069147-21314ace-1a82-47b7-acb2-ea9d739f3b82.png)
 
