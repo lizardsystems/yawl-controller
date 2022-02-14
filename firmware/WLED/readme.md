@@ -5,9 +5,7 @@
 ## Download ready-to-use firmware
 
 ### YAWL firmware
-You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin) for 3-wire LED stripes.
-
-For 4-wire LED stripes you should build 
+You may download a ready-to-use firmware [yawl_controller.bin ](firmware/WLED/bin/yawl_controller.bin).
 
 ### Standard firmware
 
@@ -100,6 +98,7 @@ When finished writing the firmware, switch off controller.
 ### Temperature
 ![image](https://user-images.githubusercontent.com/4923679/153916175-8572cc5b-27c6-4c6d-8495-6753ef247217.png)
 
+YAWL Controller uses GPIO 14 for temperature sensor DS18B20 (DALLAS)
 
 ![image](https://user-images.githubusercontent.com/4923679/148069147-21314ace-1a82-47b7-acb2-ea9d739f3b82.png)
 
