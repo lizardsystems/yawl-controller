@@ -18,7 +18,8 @@ with open(PACKAGE_FILE, "r") as package:
     data = json.load(package)
     esphome_version = data["esphome_version"]
     firmware_bin_path =  data["firmware_bin_path"]
-    fname=f"{DEVICE_NAME}-{firmware_id}-{esphome_version}.bin" 
+    # fname=f"{DEVICE_NAME}-{firmware_id}-{esphome_version}.bin" 
+    fname=f"{DEVICE_NAME}-{firmware_id}.bin" 
     shutil.copy(firmware_bin_path, fname)
     print(f"Copy firmware to {fname}")
     

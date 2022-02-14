@@ -13,7 +13,7 @@ if exist %WLED_BUILD_DIR% (
 	echo Clone WLED
 	git clone -b %WLED_BRANCH% --single-branch %WLED_REPO% %WLED_BUILD_DIR%
 )
-xcopy /f /y "platformio_override.ini"  "%WLED_BUILD_DIR%\platformio_override.ini"
+xcopy /f /y  "platformio_override.ini"  "%WLED_BUILD_DIR%\platformio_override.ini*"
 
 pio run --project-dir %WLED_BUILD_DIR%
 

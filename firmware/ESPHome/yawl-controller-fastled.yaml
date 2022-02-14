@@ -130,10 +130,14 @@ remote_receiver:
 
 light:
   - platform: fastled_clockless
-    id: light_1
-    rgb_order: GRB
     chipset: WS2812B
     pin: GPIO2
+#  - platform: fastled_spi
+#    chipset: APA102
+#    data_pin: GPIO2
+#    clock_pin: GPIO1    
+    id: light_1
+    rgb_order: GRB
     num_leds: 60
     name: ${friendly_node_name} NeoPixel Light
     default_transition_length: 
