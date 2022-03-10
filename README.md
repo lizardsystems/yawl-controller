@@ -63,7 +63,7 @@ Dimensions:
 
 ## Case
 
-PCB is designed for [AK-S-80](datasheets/AK-S-80.pdf) case
+PCB is designed for SZOMK [AK-S-80](datasheets/AK-S-80.pdf) case
 
 ![Case](https://user-images.githubusercontent.com/4923679/147881432-e5d43037-fedc-42a0-b894-20ac5c828562.png)
 
