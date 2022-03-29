@@ -6,12 +6,16 @@ substitutions:
 esphome:
   name: ${node_name}
   comment: ${friendly_node_name}
-  platform: ESP8266
-  board: esp12e
   name_add_mac_suffix: true
   project:
     name: lizardsystems.yawl-controller
     version: 1.0.0
+
+esp8266:
+  framework:
+    version: 2.7.4
+  board: esp12e
+    
 
 wifi:
   ap: {}
