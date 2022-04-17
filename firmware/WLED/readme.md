@@ -122,5 +122,30 @@ Installing relay https://kno.wled.ge/features/relay-control/
 YAWL controller uses GPIO 0 for button. 
 
 
+## Multi-strip Support
+
+You are able to use multiple LED outputs from one yawl-controller. Pins and LED numbers can be easily configured in LED settings, you don't need to re-compile code for your specific setup. You may use use two specific LED pins, GPIO1 (CLK) and GPIO2 (DATA) for two 3-wires strips 
+
+### GPIO Pinout
+| Pin | Function | 
+| --- | ---|
+|  GPIO1 | LED DATA #1 |
+|  GPIO2 | LED DATA #2 |
+
+### Wiring
+
+![image](https://user-images.githubusercontent.com/4923679/163726799-2877ba38-890b-4cbf-9c9d-28ccb5137bf1.png)
+
+
+
+
+### WLED Config
+
+![image](https://user-images.githubusercontent.com/4923679/163726769-a2f8e913-083c-44bf-8a74-44ece65049ac.png)
+
+
+
+
+
 
 
