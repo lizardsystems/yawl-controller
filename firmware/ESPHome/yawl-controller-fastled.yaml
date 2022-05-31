@@ -35,6 +35,10 @@ web_server:
 
 api:
 
+
+dashboard_import:
+  package_import_url: github://lizardsystems/yawl-controller/edit/main/firmware/ESPHome/yawl-controller-fastled.yaml
+
 binary_sensor:
   - platform: status
     name: ${friendly_node_name} Connection Status
