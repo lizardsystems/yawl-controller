@@ -112,7 +112,7 @@ Information about infrared receivers https://kno.wled.ge/interfaces/infrared/
 ### Relay
 ![image](https://user-images.githubusercontent.com/4923679/153915486-dcda3746-a0f0-44ca-b5f8-ebd2ef675e6c.png)
 
-YAWL controller uses GPIO 4 for controlling relay. 
+YAWL controller uses GPIO 12 for controlling relay. 
 
 Installing relay https://kno.wled.ge/features/relay-control/
 
