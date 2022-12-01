@@ -67,9 +67,7 @@ Dimensions:
 
 ## Enclosure
 
-PCB is designed for SZOMK [AK-S-80](datasheets/AK-S-80.pdf) case
-
-![AK-S-80](/enclosures/images/AK-S-80.png)
+Read more about the YAWL controller [enclosures](/enclosures/README.md).
 
 ## Ordering and manufacturing
 
